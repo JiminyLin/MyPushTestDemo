@@ -35,7 +35,7 @@
 		1FCA68DE19767F520030886E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FCA68DD19767F520030886E /* Images.xcassets */; };
 		60308CDA1BD49A8F006A8C19 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60308CD91BD49A8F006A8C19 /* CoreLocation.framework */; };
 		60992B311C0460190068FE39 /* PushConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60308CDD1BD4F3EB006A8C19 /* PushConfig.plist */; };
-		60992B331C0463550068FE39 /* jpush-ios-2.1.0debug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60992B321C0463550068FE39 /* jpush-ios-2.1.0debug.a */; };
+		60992B351C054FEB0068FE39 /* jpush-ios-2.1.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60992B341C054FEB0068FE39 /* jpush-ios-2.1.0.a */; };
 		AAD940A71BBA5A0500A08AFF /* JPUSHService.h in Headers */ = {isa = PBXBuildFile; fileRef = AAD940A61BBA5A0500A08AFF /* JPUSHService.h */; };
 		AAD940AB1BBA5AEB00A08AFF /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD940AA1BBA5AEB00A08AFF /* libz.tbd */; };
 		DD0799AB1654D5E7006FCFEE /* AppDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2DE95E160AB11F0092BF6A /* AppDelegate.h */; };
@@ -82,7 +82,7 @@
 		1FCA68DD19767F520030886E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		60308CD91BD49A8F006A8C19 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		60308CDD1BD4F3EB006A8C19 /* PushConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PushConfig.plist; sourceTree = "<group>"; };
-		60992B321C0463550068FE39 /* jpush-ios-2.1.0debug.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.0debug.a"; sourceTree = "<group>"; };
+		60992B341C054FEB0068FE39 /* jpush-ios-2.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.0.a"; sourceTree = "<group>"; };
 		AAD940A61BBA5A0500A08AFF /* JPUSHService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPUSHService.h; sourceTree = "<group>"; };
 		AAD940A81BBA5A1600A08AFF /* jpush-ios-2.1.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "jpush-ios-2.1.0.a"; path = "../lib/jpush-ios-2.1.0.a"; sourceTree = "<group>"; };
 		AAD940AA1BBA5AEB00A08AFF /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -110,13 +110,13 @@
 			files = (
 				60308CDA1BD49A8F006A8C19 /* CoreLocation.framework in Frameworks */,
 				AAD940AB1BBA5AEB00A08AFF /* libz.tbd in Frameworks */,
-				60992B331C0463550068FE39 /* jpush-ios-2.1.0debug.a in Frameworks */,
 				1FC88A7318EA51CC006C3011 /* Security.framework in Frameworks */,
 				DD2DE96F160AB18B0092BF6A /* SystemConfiguration.framework in Frameworks */,
 				DD2DE96D160AB1800092BF6A /* CoreTelephony.framework in Frameworks */,
 				DD2DE96B160AB1710092BF6A /* CoreFoundation.framework in Frameworks */,
 				DD2DE969160AB1690092BF6A /* CFNetwork.framework in Frameworks */,
 				DD2DE950160AB11F0092BF6A /* UIKit.framework in Frameworks */,
+				60992B351C054FEB0068FE39 /* jpush-ios-2.1.0.a in Frameworks */,
 				DD2DE952160AB11F0092BF6A /* Foundation.framework in Frameworks */,
 				DD2DE954160AB11F0092BF6A /* CoreGraphics.framework in Frameworks */,
 			);
@@ -180,7 +180,7 @@
 		DD266BB71613428600F3C9D1 /* lib */ = {
 			isa = PBXGroup;
 			children = (
-				60992B321C0463550068FE39 /* jpush-ios-2.1.0debug.a */,
+				60992B341C054FEB0068FE39 /* jpush-ios-2.1.0.a */,
 				AAD940A61BBA5A0500A08AFF /* JPUSHService.h */,
 				60308CDD1BD4F3EB006A8C19 /* PushConfig.plist */,
 			);

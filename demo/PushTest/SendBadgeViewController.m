@@ -139,7 +139,7 @@
 - (IBAction)clickInBackground6008:(id)sender {
     NSMutableSet *tagsSet= [NSMutableSet set];
     for (int i=87; i<113; i++) {
-        [tagsSet addObject:[NSString stringWithFormat:@"back5678901234567890123456789012345a%d", i]];
+        [tagsSet addObject:[NSString stringWithFormat:@"back6008_01234567890123456789012345a%d", i]];
     }
 
     [JPUSHService setTags:tagsSet aliasInbackground:@"back5678901234567890123456789012345_6008"];
